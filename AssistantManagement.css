@@ -1,0 +1,89 @@
+.assistant-management h1 {
+  color: var(--accent-red);
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.create-btn {
+  margin-bottom: 30px;
+  padding: 12px 20px;
+  background-color: var(--accent-red);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.create-btn:hover {
+  background-color: var(--accent-pink);
+}
+
+.knowledge-list h2 {
+  color: var(--accent-red);
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.no-data {
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 30px;
+  background-color: var(--dark-secondary);
+  border-radius: 5px;
+}
+
+.qa-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.qa-card {
+  background-color: var(--dark-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.qa-card:hover {
+  border-color: var(--accent-red);
+  box-shadow: 0 0 10px rgba(231, 76, 60, 0.1);
+}
+
+.qa-question {
+  color: var(--accent-red);
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.qa-answer {
+  color: var(--text-secondary);
+  margin-bottom: 15px;
+  font-size: 13px;
+  line-height: 1.6;
+  word-wrap: break-word;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+

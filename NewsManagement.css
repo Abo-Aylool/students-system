@@ -1,0 +1,99 @@
+.news-management h1 {
+  color: var(--accent-red);
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.create-btn {
+  margin-bottom: 30px;
+  padding: 12px 20px;
+  background-color: var(--accent-red);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.create-btn:hover {
+  background-color: var(--accent-pink);
+}
+
+.news-list h2 {
+  color: var(--accent-red);
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.no-data {
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 30px;
+  background-color: var(--dark-secondary);
+  border-radius: 5px;
+}
+
+.news-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.news-card {
+  background-color: var(--dark-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.news-card:hover {
+  border-color: var(--accent-red);
+  box-shadow: 0 0 10px rgba(231, 76, 60, 0.1);
+}
+
+.news-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.news-header h3 {
+  color: var(--accent-red);
+  margin: 0;
+  flex: 1;
+  font-size: 16px;
+}
+
+.news-date {
+  color: var(--text-secondary);
+  font-size: 12px;
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+.news-content {
+  color: var(--text-secondary);
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+

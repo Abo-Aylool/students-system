@@ -1,0 +1,55 @@
+.file-management h1 {
+  color: var(--accent-red);
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.create-btn {
+  margin-bottom: 30px;
+  padding: 12px 20px;
+  background-color: var(--accent-red);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.create-btn:hover {
+  background-color: var(--accent-pink);
+}
+
+.files-list h2 {
+  color: var(--accent-red);
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.no-data {
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 30px;
+  background-color: var(--dark-secondary);
+  border-radius: 5px;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+input[type="file"] {
+  padding: 8px;
+}
+

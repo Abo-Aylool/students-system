@@ -1,0 +1,135 @@
+.student-assistant h1 {
+  color: var(--accent-red);
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.assistant-subtitle {
+  color: var(--text-secondary);
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.search-form {
+  margin-bottom: 30px;
+}
+
+.search-input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px 15px;
+  background-color: var(--dark-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent-red);
+  box-shadow: 0 0 5px rgba(231, 76, 60, 0.3);
+}
+
+.search-btn {
+  padding: 12px 30px;
+  background-color: var(--accent-red);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover:not(:disabled) {
+  background-color: var(--accent-pink);
+}
+
+.search-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.search-results {
+  margin-top: 30px;
+}
+
+.loading-text {
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 30px;
+}
+
+.no-results {
+  background-color: var(--dark-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 40px;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.no-results-hint {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.qa-results h2 {
+  color: var(--accent-red);
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.qa-result {
+  background-color: var(--dark-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 15px;
+  transition: all 0.3s ease;
+}
+
+.qa-result:hover {
+  border-color: var(--accent-red);
+  box-shadow: 0 0 10px rgba(231, 76, 60, 0.1);
+}
+
+.result-number {
+  background-color: var(--accent-red);
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.result-content {
+  flex: 1;
+}
+
+.result-question {
+  color: var(--accent-red);
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.result-answer {
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+

@@ -1,0 +1,23 @@
+.admin-dashboard {
+  display: flex;
+  height: 100vh;
+  background-color: var(--dark-bg);
+}
+
+.admin-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 30px;
+  background-color: var(--dark-bg);
+}
+
+@media (max-width: 768px) {
+  .admin-dashboard {
+    flex-direction: column;
+  }
+
+  .admin-content {
+    padding: 15px;
+  }
+}
+

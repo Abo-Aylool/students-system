@@ -1,0 +1,20 @@
+.student-dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--dark-bg);
+}
+
+.student-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 30px;
+  background-color: var(--dark-bg);
+}
+
+@media (max-width: 768px) {
+  .student-content {
+    padding: 15px;
+  }
+}
+
